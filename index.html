@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 1 Alura Encriptador - Principiante en programación.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1 class="titulo">Encriptador de texto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Por favor, solo ingrese letras minúsculas y sin acento.</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"> <!--Input del usuario-->
+        <input class="btn" type="button" value="Encriptar!" id="btn-encriptar"> <!--Botón de encriptar-->
+        <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar"> <!--Boton desencriptar-->
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Su mensaje encriptado es:</h2>
+      <input class="text-input" type="text" id="resultado" disabled></input> <!--Output encriptado / desencriptado-->
+      <input class="btn" type="button" value="Copiar" id="btn-copy"> <!--Botón copiar-->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
